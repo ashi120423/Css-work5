@@ -51,13 +51,12 @@ nav ul li a:hover {
 }
 
 .search input {
-    width: 200px;
-    height: 40px;
+  
     background: transparent;
     border: 2px solid #ff7200;
     border-right: none;
     outline: none;
-    padding: 10px;
+    padding: 17px 12px;
     border-radius: 5px;
 
     /* color: white; */
@@ -69,7 +68,8 @@ nav ul li a:hover {
 }
 
 .search button {
-    padding: 21px 33px;
+    padding: 18px 30px;
+
     background: #ff7200;
     color: white;
     border: 2px solid #ff7200;
@@ -207,16 +207,17 @@ nav ul li a:hover {
 .right h5 {
     color: white;
     font-size: 16px;
+    margin-bottom: 10px;
 }
 .right .imgs{
-    /* width: 100px; */
-    height: 60px;
-    display: flex;    
+  width: 42%;
+  text-align: center;
+  margin: 18px auto;
+  
 }
-.right img{
-    color: white;
-}
+
 
 i{
     color: white;
+
 }
